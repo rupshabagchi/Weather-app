@@ -8,6 +8,9 @@ export default class List extends Component {
         <thead>
           <tr>
             <th>City</th>
+            <th>Temperature</th>
+            <th>Pressure</th>
+            <th>Humidity</th>
           </tr>
         </thead>
         <tbody>
