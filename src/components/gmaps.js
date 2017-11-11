@@ -15,3 +15,5 @@ class GMap extends Component {
     return <div ref="map" />;
   }
 }
+
+export default GMap;
