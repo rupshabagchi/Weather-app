@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SearchBar from '../containers/searchbar';
 import List from '../containers/list';
+import GMap from './gmaps';
 
 export default class App extends Component {
   render() {
