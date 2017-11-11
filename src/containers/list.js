@@ -1,6 +1,7 @@
 import React,{ Component } from 'react';
 import { connect } from 'react-redux';
 import Chart from '../components/chart';
+import GMap from './gmaps';
 
 class List extends Component {
 
@@ -13,7 +14,7 @@ class List extends Component {
 
     return(
         <tr key={name}>
-          <td> {name} </td>
+          <td> <GMap /> </td>
           <td>
             <Chart data={temp_list} color="red" units="K" />
           </td>
